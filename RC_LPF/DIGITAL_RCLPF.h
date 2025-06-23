@@ -18,8 +18,4 @@ void RCFILTER_Update(RCFilter *filter, float input);
 
 
 
-
-
-
-
 #endif
