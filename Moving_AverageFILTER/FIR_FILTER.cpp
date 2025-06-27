@@ -1,6 +1,6 @@
 #include "FIR_FILTER.h"
 
-static float FIR_IMPULSE_RESPONSE[FIR_FILTER_LENGTH] = {//need to add the values forn th ephills lab software};
+static float FIR_IMPULSE_RESPONSE[FIR_FILTER_LENGTH] = {0.1f , 0.1f}; // avegare of 1/10  moving average filter
 
 void FIRFilter_Init(FIRFilter *filter)
 {

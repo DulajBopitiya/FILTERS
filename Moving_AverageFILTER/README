@@ -1,0 +1,23 @@
+🧠 What is a Moving Average Filter?
+A Moving Average Filter is a simple low-pass filter that smooths out short-term fluctuations and highlights long-term trends in data. It works by taking the average of a set number of recent samples (a "window") and outputting that average.
+
+✅ Advantages
+    ✔️ Simple to implement (just addition and division)
+    ✔️ Good for noise reduction
+    ✔️ No phase distortion in some applications (e.g. symmetrical filter)
+
+❌ Limitations
+
+    ❌ Can lag behind fast-changing signals (delayed response)
+    ❌ Not great at preserving sharp edges or spikes
+    ❌ All data points in the window are equally weighted — no preference for newer data
+
+🔧 Use Cases in Embedded Systems
+    Smoothing sensor data (e.g., temperature, accelerometer)
+    Filtering ADC noise
+    Displaying stable values on screens
+    Preprocessing before derivative or threshold logic
+
+
+reffer this vedio link for more clarification
+https://youtu.be/rttn46_Y3c8?si=Wr-2NP-O9XDQRC29
